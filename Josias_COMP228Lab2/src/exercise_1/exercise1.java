@@ -97,10 +97,9 @@ public class exercise1 {
     // Method used to generate random message
     public String generateMessage(boolean isCorrect) {
         String message = "";
-        int randomNumber = randomNum.nextInt(4);
 
         if (isCorrect) {
-            switch (randomNumber) {
+            switch (randomNum.nextInt(4)) {
                 case 0:
                     message = "Excellent!";
                     break;
@@ -115,7 +114,7 @@ public class exercise1 {
                     break;
             }
         } else {
-            switch (randomNumber) {
+            switch (randomNum.nextInt(4)) {
                 case 0:
                     message = "No. Please try again";
                     break;
