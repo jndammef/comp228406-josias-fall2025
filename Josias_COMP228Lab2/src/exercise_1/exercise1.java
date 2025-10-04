@@ -7,7 +7,7 @@ public class exercise1 {
     private int incorrectAnswers;
     private Random randomNum;
 
-    // We define our non parameterized constructor that will be use when we call the class
+    // We define our non parameterized constructor that will be use when we instantiate new object
     public exercise1() {
         correctAnswers = 0;
         incorrectAnswers = 0;
