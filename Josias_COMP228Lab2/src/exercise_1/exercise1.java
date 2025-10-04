@@ -1,3 +1,5 @@
+package exercise_1;
+
 import javax.swing.JOptionPane;
 import java.util.Random;
 
@@ -169,5 +171,12 @@ public class exercise1 {
                 "Percentage of correct answers: " + String.format("%.2f", percentage) + "%"; //format specifier is really handy here
 
         JOptionPane.showMessageDialog(null, results);
+    }
+
+    public static void main(String[] args) {
+        //we instantiate a new object of exercise1 class
+        exercise1 lab2 = new exercise1();
+
+        lab2.inputAnswer();
     }
 }
