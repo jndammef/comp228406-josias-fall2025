@@ -22,6 +22,7 @@ public abstract class Insurance {
         this.monthlyCost = cost;
     }
 
+    // This abstract methods will be defined later in the subclasses
     public abstract void setInsuranceCost(double cost);
     public abstract void displayInfo();
 }
